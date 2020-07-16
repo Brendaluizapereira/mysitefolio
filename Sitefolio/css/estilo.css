@@ -1,0 +1,123 @@
+body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: rgb(26, 20, 20);
+}
+
+/*configurações do topo*/
+#header {
+	position: sticky;
+	top: 0;
+	z-index: 0;
+}
+
+.logo {
+	width: 450px;
+	height: 66px;
+	/*background: url(../imagens/logo.png) no-repeat center;*/
+	text-indent: -3000px;	
+	position: relative;
+	z-index:999;
+}
+
+.linetop {
+	background-repeat: repeat-y; 
+	overflow-y: hidden; 
+	margin-top: -300px;
+	z-index: -999;
+	position: sticky;
+}
+
+#area-logo {
+	/*position: absolute;*/
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-top: -115px;
+	margin-left: 80px;
+
+}
+
+.menu {
+	position: absolute;
+	float: right;
+	list-style:none; 
+	list-style:none;
+    padding-top: 64px;
+	margin-left: 350px;
+
+}
+
+.menu li{
+	position:relative; 
+	float:left; 
+}
+
+.menu li.space {
+	margin-left: 30px;
+}
+
+.menu li a{
+	color: rgb(26, 20, 20);
+	text-decoration: none;
+	font-size: 1.1em;
+	padding:5px 10px; 
+	display:block;
+}
+ 
+.menu li a:hover{
+	color: #FF5733;
+	cursor: pointer;
+}
+
+.menu li a:active {
+	color: #FF5733;
+}
+
+.menu li  ul{
+	position:absolute; 
+	top:25px; 
+	left:0;
+	display:none;
+}  
+
+.menu li:hover ul, .menu li.over ul{
+	display:block;
+
+}
+
+.menu li ul li{
+	display:block; 
+	width:150px;
+	background: rgb(253, 252, 251);
+	padding: 0.2em;
+	text-align: left;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,.16)}
+}
+
+.ctt {
+	color: #DAF7A6;
+}
+
+.arrow {
+  	border: solid black;
+ 	border-width: 0 1px 1px 0;
+ 	display: inline-block;
+  	padding: 3px;
+  	margin-bottom: 4px;
+  	margin-left: 3px;
+}
+
+.down {
+  	transform: rotate(45deg);
+  	-webkit-transform: rotate(45deg);
+}
+
+/*conteúdo*/
+
+.content {
+	padding-top: 200px;
+	z-index: 0;
+}
