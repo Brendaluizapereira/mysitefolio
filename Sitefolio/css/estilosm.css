@@ -37,8 +37,8 @@ h1 {
 }
 
 #mylinks li {
-    list-style: none;
-    display:block; 
+  list-style: none;
+  display:block; 
 	width:100%;
 	background: rgb(253, 252, 251);
 	padding: 1em;
@@ -53,8 +53,8 @@ h1 {
 .linetop {
 	background-repeat: repeat-y; 
 	overflow-y: hidden; 
-    margin-top: -500px;
-    position: relative;
+  margin-top: -500px;
+  position: relative;
 	z-index: -999;
 	box-shadow:0 8px 16px 0 rgba(0,0,0,.16);
 	opacity: 0.95;
