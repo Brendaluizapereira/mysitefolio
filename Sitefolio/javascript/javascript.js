@@ -1,17 +1,13 @@
-/*/ ativer função de fixação do cabeçalho
-window.onscroll = function() {fixar()};
 
-// cabecalho 
-var cabecalho = document.getElementById("cabecalho");
-
-// posição offset
-var sticky = cabecalho.offsetTop;
-
-// adicionar sticky qdo offset for necessário
-function fixar() {
-  if (window.pageYOffset >= sticky) {
-    cabecalho.classList.add("sticky")
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon*/
+function myFunction() {
+  var x = document.getElementById("mylinks");
+ 
+  if (x.style.display === "block") {
   } else {
-    cabecalho.classList.remove("sticky");
+    x.style.display = "block";
+    x.style.textDecoration = "none";
+    x.className = "responsivo";
   }
-}*/
+}
+

@@ -1,3 +1,4 @@
+/*general configs*/
 body {
 	overflow-x: hidden;
 	margin: 0;
@@ -6,11 +7,25 @@ body {
 	color: rgb(26, 20, 20);
 }
 
-/*configurações do topo*/
+h1 {
+	font-weight: 30;
+	font-size: 40px;
+}
+/*topping configs*/
 #header {
 	position: sticky;
 	top: 0;
 	z-index: 0;
+}
+
+#area-logo {
+	/*position: absolute;*/
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-top: -115px;
+	margin-left: 80px;
+
 }
 
 .logo {
@@ -25,19 +40,11 @@ body {
 .linetop {
 	background-repeat: repeat-y; 
 	overflow-y: hidden; 
-	margin-top: -300px;
+	margin-top: -500px;
 	z-index: -999;
 	position: sticky;
-}
-
-#area-logo {
-	/*position: absolute;*/
-	float: left;
-	width: 100%;
-	height: 100%;
-	margin-top: -115px;
-	margin-left: 80px;
-
+	box-shadow:0 8px 16px 0 rgba(0,0,0,.16);
+	opacity: 0.95;
 }
 
 .menu {
@@ -115,9 +122,23 @@ body {
   	-webkit-transform: rotate(45deg);
 }
 
+.topnav .icon {
+	display: none;
+}
+
+
+/*responsiveness configs
+
 /*conteúdo*/
 
 .content {
-	padding-top: 200px;
+	padding-top: 40px;
+	padding-left: 93px;
 	z-index: 0;
+}
+
+.intro {
+	background-color: rgb(151, 56, 56);
+	width: 60%;
+	height: 30%;
 }
