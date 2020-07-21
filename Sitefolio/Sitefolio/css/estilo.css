@@ -1,0 +1,142 @@
+/*general configs*/
+body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(26, 20, 20);
+}
+
+h1 {
+	font-weight: 50;
+	font-size: 50px;
+}
+/*topping configs*/
+#header {
+	position: sticky;
+	top: 0;
+	z-index: 3;
+}
+
+#area-logo {
+	position: absolute;
+	float: left;
+	width: 95%;
+	height: 95%;
+	margin-top: -135px;
+	margin-left: 80px;
+	z-index: 3;
+
+}
+
+.logo {
+	width: 450px;
+	height: 66px;
+	/*background: url(../imagens/logo.png) no-repeat center;*/
+	text-indent: -3000px;	
+	position: relative;
+	z-index: 3;
+}
+
+.linetop {
+	position: absolute;
+	overflow: hidden; 
+	margin-top: -350px;
+	z-index: 2;
+	top: 0;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,.16);
+	opacity: 0.95;
+}
+
+.menu {
+	position: absolute;
+	float: right;
+	list-style:none; 
+    padding-top: 64px;
+	margin-left: 350px;
+	z-index: 4;
+
+}
+
+.menu li{
+	position:relative; 
+	float:left; 
+}
+
+.menu li.space {
+	margin-left: 20px;
+}
+
+.menu li a{
+	color: rgb(26, 20, 20);
+	text-decoration: none;
+	font-size: 1em;
+	padding:5px 10px; 
+	display:block;
+}
+ 
+.menu li a:hover{
+	color:#EE3E2F;
+	cursor: pointer;
+}
+
+.menu li a:active {
+	color: #FF5733;
+}
+
+.menu li  ul{
+	position:absolute; 
+	top:25px; 
+	left:0;
+	display:none;
+}  
+
+.menu li:hover ul, .menu li.over ul{
+	display:block;
+
+}
+
+.menu li ul li{
+	display:block; 
+	width:150px;
+	background: rgb(253, 252, 251);
+	padding: 0.2em;
+	text-align: left;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,.16)}
+}
+
+.ctt {
+	color: #DAF7A6;
+}
+
+.arrow {
+  	border: solid black;
+ 	border-width: 0 1px 1px 0;
+ 	display: inline-block;
+  	padding: 3px;
+  	margin-bottom: 4px;
+  	margin-left: 3px;
+}
+
+.down {
+  	transform: rotate(45deg);
+  	-webkit-transform: rotate(45deg);
+}
+
+.topnav .icon {
+	display: none;
+}
+
+
+/*content*/
+
+.content {
+	padding-top: 170px;
+	padding-left: 93px;
+	z-index: 0;
+}
+
+.intro {	
+	width: 50%;
+	height: 30%;
+}

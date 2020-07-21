@@ -1,0 +1,106 @@
+/*general configs*/
+body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: rgb(26, 20, 20);
+}
+
+h1 {
+	font-weight: 30;
+	font-size: 40px;
+}
+/*topping configs*/
+#header {
+	position: relative;
+	top: 0;
+	z-index: 0;
+}
+
+#area-logo {
+	/*position: absolute;*/
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-top: -115px;
+	margin-left: 40px;
+}
+
+.logo {
+	width: 450px;
+	height: 66px;
+	/*background: url(../imagens/logo.png) no-repeat center;*/
+	text-indent: -3000px;	
+	position: relative;
+	z-index:999;
+}
+
+#mylinks li {
+	list-style: none;
+	display:block; 
+	width:100%;
+	background: rgb(253, 252, 251);
+	padding: 1em;
+	text-align: left;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,.16)
+	z-index: 9999;
+}
+
+#mylinks li ul {
+    display: none;
+}
+
+.linetop {
+	background-repeat: repeat-y; 
+	overflow-y: hidden; 
+  margin-top: -500px;
+  position: relative;
+	z-index: -999;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,.16);
+	opacity: 0.95;
+}
+
+/*responsiveness configs*/
+
+.topnav #mylinks {
+	display: none;
+  }
+
+  /* Style the hamburger menu */
+.topnav a.icon {
+	display: block;
+    position: absolute;
+    margin: auto;
+	font-size: 2em;
+	color:#C70039;
+	right: 30px;
+	top: 30px;
+  }
+
+  .responsivo {
+      float: right;
+      margin-right: 10px;
+	  display: block;
+	  text-decoration: none;
+	  color: rgb(26, 20, 20);
+	  list-style: none;
+
+  }
+
+/*conteúdo*/
+
+.content {
+	padding-top: 40px;
+	padding-left: 93px;
+    z-index: 0;
+	position: relative;
+	z-index: -99999;
+}
+
+.intro {
+	background-color: rgb(151, 56, 56);
+	width: 60%;
+	height: 30%;
+	z-index: 0;
+}
