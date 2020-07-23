@@ -37,13 +37,14 @@ h1 {
 }
 
 #mylinks li {
-  list-style: none;
-  display:block; 
+	list-style: none;
+	display:block; 
 	width:100%;
 	background: rgb(253, 252, 251);
 	padding: 1em;
 	text-align: left;
 	box-shadow:0 8px 16px 0 rgba(0,0,0,.16)
+	z-index: 9999;
 }
 
 #mylinks li ul {
@@ -93,11 +94,13 @@ h1 {
 	padding-top: 40px;
 	padding-left: 93px;
     z-index: 0;
-    position: relative;
+	position: relative;
+	z-index: -99999;
 }
 
 .intro {
 	background-color: rgb(151, 56, 56);
 	width: 60%;
 	height: 30%;
+	z-index: 0;
 }
