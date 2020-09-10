@@ -12,11 +12,11 @@
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 		
-		<script type="text/javascript" src="../javascript/javascript.js"></script>
-		
 		<link rel="sortcut icon" href="favicon.ico" type="image/x-icon"/>
 
 		<link rel="sortcut icon" href="../imagens/icon.ico" type="image/icon" />
+
+		<script type="text/javascript" src="../javascript/javascript.js"></script>
 
 		<title>Sitefolio | Brenda Pereira</title>
 
@@ -32,8 +32,6 @@
 					<h1 class="logo"><a href="#">Sitefolio | Brenda Pereira</a></h1>
 					<a href="" class="brand-logo"><img src="../imagens/small.logo.png"></a>		
 				</div>
-
-				
 
 				<!-- inicio menu-->	
 				<nav class="topnav">
@@ -51,7 +49,8 @@
 								<li class="item2"> <a href="#">Interatividade</a></li>			
 								<li class="item3"><a href="#">Etc1</a></li>
 							</ul>
-						</li>			
+						</li>
+
 						<li class="space"><a href="banners.html">Banners <i class="arrow down"></i></a>
 							<ul class="submenu_web">
 								<li class="item1"><a href="#">Comerciais</a></li>
@@ -59,41 +58,51 @@
 								<li class="item3"><a href="#">Etc2</a></li>
 							</ul>
 						</li>
+
 						<li class="space"><a href="sobre_mim.html">Sobre mim</a></li>
+						
 						<li class="space"><a href="sobre_mim.html">Contato</a></li>
-					</ul>	
-					<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links
-					-->
-					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					</ul>
+
+					<!-- Menu hambúrguer para quando diminuir tela-->
+					<a href="javascript:void(0);" class="icon" onclick="menuHamburguer()">
 						<i class="fa fa-bars"></i>
 					</a>
-					</div>
 				</nav>	
 			</header>
 		</div>
 
-		<div class="content">
 
+	<div class="grid-container">
+		<div class="content grid-item1">
 			<div class="intro">
 				<p>
-					<h1>Bem vindos ao meu espaço! <br > Vejam algumas das coisas <br > que eu amo fazer...</h1>
+					<h1>Bem vindos ao meu espaço! <br>
+						Vejam algumas das coisas <br >que eu amo fazer...
+					</h1>
 				</p>
 
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pretium arcu sed enim vulputate maximus. Sed dignissim augue tellus, quis suscipit diam feugiat non. Phasellus feugiat in orci varius blandit. In in velit ut ligula hendrerit tempus. Proin vel mauris mattis, tincidunt lorem quis, pellentesque tellus. Pellentesque laoreet felis enim, et pretium libero efficitur nec. Ut dignissim nulla venenatis suscipit fermentum. Vestibulum at urna nec arcu congue placerat in id ex.
-
-Nam et turpis ac nunc condimentum consequat. Donec ac mollis nisi. Donec diam massa, pretium a dignissim a, maximus in nibh. Morbi ornare est mauris, quis tempus enim finibus posuere. Vestibulum aliquet erat purus, at dapibus urna feugiat nec. Vivamus orci tortor, iaculis sed velit semper, ultricies pharetra dui. Aenean nec efficitur nisl, quis viverra nisl. Mauris commodo elementum tortor, nec ultrices lectus malesuada eget. Phasellus mattis felis mi, mollis dapibus velit imperdiet in. Donec in convallis eros. Vivamus laoreet nisi elit, vel cursus sapien placerat eu. Etiam id tincidunt elit, id fermentum justo. Etiam pharetra augue id pretium fringilla. Aenean vitae est fermentum, maximus ipsum porta, scelerisque sapien. Nunc quis posuere nisl. Donec tempor tellus non enim pretium bibendum.
-
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus ut dolor ac risus condimentum facilisis. Maecenas non luctus eros, non pellentesque lorem. Ut placerat enim sit amet ante auctor iaculis. Sed diam tortor, congue non sollicitudin lacinia, vestibulum a purus. Nam scelerisque, erat ac pellentesque viverra, felis odio viverra tortor, eget pulvinar arcu sem ac neque. Praesent scelerisque arcu sit amet nunc mattis commodo. Sed efficitur eros in nisi hendrerit, id pellentesque diam auctor. Etiam condimentum tortor et commodo suscipit. Fusce blandit nibh eget magna ultrices, eu interdum metus iaculis. Donec finibus nunc at ultrices interdum. Maecenas in nibh quis elit finibus facilisis. Phasellus pellentesque arcu odio. Fusce congue elementum sapien id tempus.
-
-Vestibulum ac sapien vel purus placerat viverra at accumsan diam. Ut egestas est at massa tincidunt dapibus. Nulla tincidunt, dolor vel tincidunt porta, lacus nisl pellentesque nunc, ac elementum neque diam eu nisi. Nam suscipit porta lectus eu imperdiet. Sed sed dictum ipsum, quis tempor diam. Suspendisse vitae ex volutpat, dignissim diam eget, venenatis leo. Fusce lobortis orci ut risus tincidunt vestibulum. Nullam elit velit, congue at sapien at, laoreet lobortis nunc. Duis viverra rhoncus magna, nec sollicitudin est interdum vel. Maecenas commodo accumsan ex, sed gravida nisl finibus eget.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					 Duis pretium arcu sed enim vulputate maximus. 
 				</p>
 
 			</div>
 		</div>
-
-
-
-
+		
+		<div class="slideshow-container grid-item2">
+			<div class="galeria">
+				<img src="../imagens/jpg.jpg" style="width:100%">
+			</div>
+		
+			<div class="galeria">
+				<img src="../imagens/jpg2.jpg" style="width:100%">
+			</div>
+		
+			<a class="prev" onclick="plusSlides(-1, 0)"></a>
+			<a class="next" onclick="plusSlides(1, 0)"></a>
+		</div>
+	</div>"
+			
 	</body>
 </html>
