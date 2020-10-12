@@ -4,54 +4,112 @@
 
 		<meta charset="utf-8" lang="pt-br">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width,  height=device-height, initial-scale=1, maximum-scale=1, shrink-to-fit=no  user-scalable=no">
 
-		<link rel="stylesheet" type="text/css" href="teste2.css">
+		<link rel="stylesheet" media="screen and (min-width: 815px)" href="../css/estilo.css" />
+
+		<link rel="stylesheet" media="screen and (max-width: 814px)" href="../css/estilosm.css" />
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		
+		<link rel="sortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+		<link rel="sortcut icon" href="../imagens/icon.ico" type="image/icon" />
+
+		<script type="text/javascript" src="../javascript/javascript.js"></script>
 
 		<title>Sitefolio | Brenda Pereira</title>
 
 	</head>
+
 	<body>
-
+	
+		
 		<!-- inicio cabecalho-->
-		<div id="cabecalho">
-			<div id="area-logo">
-				<h1 class="logo"><a href="#">Sitefolio | Brenda Pereira</a></h1>
-				<a href=""><img src="../imagens/smalllogo.png"></a>
-			</div>
+		<div id="header">
+			<header>
+				<div id="area-logo">
+					<h1 class="logo"><a href="#">Sitefolio | Brenda Pereira</a></h1>
+					<a href="index.html" class="brand-logo"><img src="../imagens/small.logo.png"></a>		
+				</div>
 
-			<!-- inicio menu-->			
-			<nav>
-				<ul class="menu">
-					<li class="espaco"><a href="index.html">Home</a></li>
-					<li class="espaco"><a href="features.html">Website Features</a>
-						<ul class="submenu_web">
-							<li class="item1"><a href="#">Item 1</a></li>
-							<li class="item2"> <a href="#">Item 2</a></li>			
-							<li class="item3"><a href="#">Item 3</a></li>
-						</ul>
-					</li>			
-					<li class="espaco"><a href="banners.html">Banners</a></li>
-					<li class="espaco"><a href="sobre_mim.html">Sobre mim</a></li>
-					<li class="espaco"><a href="contato.html">Contato</a></li>	
-				</ul>			
-			</nav>
+				<!-- inicio menu-->	
+				<nav class="topnav">
+
+					<div>
+						<img id="line" class="linetop" src="../imagens/line_sm.png">
+					</div>
+				
+					<ul class="menu" id="mylinks">
+						<li class="space"><a class= "active" href="index.html">Home</a></li>
+						<li class="space"><a href="index.html">Traduções e Revisões</a></li>
+						<li class="space"><a href="meusprojetos.html">Desenvolvimento Web <i class="arrow down"></i></a>
+							<ul class="submenu_web">
+								<li class="item1"><a href="meusprojetos.html">Projetos</a></li>
+								<li class="item2"> <a href="codigos.html">Códigos</a></li>			
+							</ul>
+						</li>
+
+						<li class="space"><a href="teste.html">Audiovisual <i class="arrow down"></i></a>
+							<ul class="submenu_web">
+								<li class="item1"><a href="teste.html">Banners</a></li>
+								<li class="item2"> <a href="videos.html">Vídeos</a></li>			
+							</ul>
+						</li>
+
+						<li class="space"><a href="sobre_mim.html">Sobre mim</a></li>
+						
+						<li class="space"><a href="sobre_mim.html">Contato</a></li>
+					</ul>
+
+					<!-- Menu hambúrguer para quando diminuir tela-->
+					<a href="javascript:void(0);" class="icon" onclick="menuHamburguer()">
+						<i class="fa fa-bars"></i>
+					</a>
+				</nav>	
+			</header>
 		</div>
-		<!-- fim cabecalho-->
 
-	</body>
+		<div class=grid-container> 
+
+			<div class="div-galeria grid-item1">	
+
+			<!--<button class="btn-galeria1" onclick="backward(); textosgaleria()"> 
+					<i class="fas fa-angle-double-left fa-3x"></i>
+				</button>  -->
+
+				<button class="btn-galeria2" onclick="forward(); textosgaleria()"> 
+					<i class="fas fa-angle-double-right fa-3x"></i> 
+				</button>
+			
+				<img id="img-galeria" src="../galeria/image1.png" >
+				
+			</div >
+
+			<div class="grid-item2">
+				<p>
+					<h2>Design é a sistematização da estética <br>
+					</h2>
+				</p>
+
+				<p>
+					Eu vejo o design como uma mistura de estética e matemática: a precisão da simetria
+					especial, as formas, a magia de buscar o que é bonito e traz boas sensações às pessoas...
+					<br><br>
+					É por isso que eu sou apaixonada por criar pequenas artes visuais, apesar de não ser 
+					profissional nisso. Encontrar o equilíbrio dos elementos no plano, montar paletas de cores, 
+					fazer alguma coisa para atrair as pessoas e talvez até trazer um sorriso  
+					ao rosto de quem encomendou, tudo isso me encanta!
+					<br><br>
+					Os slides que você está vendo são alguns dos banners que eu fiz no meu tempo livre
+					para lojas ou eventos de amigos.
+					<br><br>
+					
+					
+				
+				</p>
+			</div>
+		</div>
+
+    </body>
 </html>
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

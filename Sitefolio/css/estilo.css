@@ -11,6 +11,17 @@ h1 {
 	font-weight: 50;
 	font-size: 48px;
 }
+
+h2 {
+	font-weight: 30;
+	font-size: 28px;
+}
+
+h3 {
+	font-weight: 30;
+	font-size: 20px;
+}
+
 /*topping configs*/
 #header {
 	position: sticky;
@@ -150,52 +161,58 @@ h1 {
 	
 }
 
-/*.grid-item1 {
-	background-color: sandybrown;
+.grid-item2 {
+	height: 120px;
+	width: 500px;
+	margin-top: 200px;
 }
 
-.grid-item2 {
+.center {
+	padding-top: 170px;
+	padding-left: 400px;
+}
+
+.moreContent {
+	width: 300px;
+	height: 100px;
+	position: relative;
 	background-color: red;
-}*/
+}
 
 /* Galeria */
-.galeria {
-	margin: 180px 5px 0px 10px;
-	box-shadow:0 8px 16px 0 rgba(0,0,0,.20);
-
+#img-galeria {
+	max-width: 700px;
+	max-height: 450px;
+}
+.div-galeria {
+	height: 150px;
+	padding-left: 120px;
+	padding-top: 180px;
 }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+/*Botões*/
+.btn-galeria2 {
+	color: #FFC300; 
+	border: none;
+	position: fixed;
+	margin-left: 400px;
+	background-color: white;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  /*padding: 16px;
-  margin-top: -22px;*/
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+/*.btn-galeria1 {
+	background-color: white;
+	color: #FFC300; 
+	border: none;
+	position: absolute;
+	/*top: 100px;
+	left: 160px;
+	
+}*/
+
+.fas:hover {
+	color: #FF5733;
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a grey background color */
-.prev:hover, .next:hover {
-  background-color: #f1f1f1;
-  color: black;
+.code {
+	padding-left: 120px;
 }
